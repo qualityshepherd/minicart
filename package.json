@@ -1,0 +1,26 @@
+{
+  "name": "Minicart",
+  "version": "1.1.0",
+  "description": "A simple React app for e2e test code challenges",
+  "engines": {
+    "node": "8.12.0"
+  },
+  "scripts": {
+    "prepare": "node_modules/.bin/webdriver-manager update",
+    "update": "node_modules/.bin/webdriver-manager update",
+    "test": "./node_modules/.bin/protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qualityshepherd/minicart"
+  },
+  "author": "Brine",
+  "dependencies": {
+    "protractor": "5.4.1",
+    "jasmine-spec-reporter": "2.7.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1"
+  }
+}
